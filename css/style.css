@@ -1,0 +1,184 @@
+html {
+  color: #107da8;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  overflow: hidden;
+  margin: 0;
+}
+
+#canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+.center {
+  border: 5px outset white;
+  text-align: center;
+  color: white;
+  width: 80%;
+  margin: 15px auto;
+  padding: 20px 0px;
+}
+
+#title {
+  font-family: "Lato", sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+}
+
+/* The Modal (background) */
+.modal {
+  font-family: system-ui;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 20px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #000000f1;
+  color: white;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(139, 139, 139, 0.1),
+    0 6px 20px 0 rgba(139, 139, 139, 0.09);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .modal-content {
+    width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 4px 16px;
+  background-color: #fefefee3;
+  color: black;
+}
+
+.modal-header-name {
+  display: table;
+}
+
+#nameOfObject {
+  display: inline;
+}
+
+#planetSymbol {
+  margin: 2px;
+  position: absolute;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+span {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+li {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 7px 0px;
+}
+
+.instructions {
+  font-size: 20px;
+  padding: 10px 1px;
+}
+
+div.mobile {
+  display: none;
+}
+@media (max-width: 640px) {
+  div.mobile {
+    display: block;
+  }
+  div.desktop {
+    display: none;
+  }
+
+  .instructions {
+    font-size: 16px;
+  }
+
+  #loadButton {
+    padding: 8px 40px;
+  }
+
+  span {
+    font-size: 15px;
+  }
+
+  li {
+    font-size: 15px;
+    padding: 3px 0px;
+  }
+}

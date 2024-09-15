@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nasa | Project</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- threjs canvas -->
+        <canvas id="canvas"></canvas>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal relative z-50">
+    
+            <!-- Modal content -->
+            <div class="modal-content mt-28 z-50 relative">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <div class="modal-header-name">
+                        <h2 id="nameOfObject"></h2>
+                        <img id="planetSymbol" src="" alt="Planet symbol" width="25" height="25">
+                    </div>
+                </div>
+    
+                <div class="modal-body">
+                    <ul>
+                        <li>Volume: <span id="volumeXEarths"></span> Earths</li>
+                        <li>Orbit distance: <span id="orbitDistance"></span> km</li>
+                        <li>Equatorial radius: <span id="equatorialRadius"></span> km</li>
+                        <li>Surface gravity: <span id="surfaceGravity"></span> m/s^2</li>
+                        <li>Rotation period: <span id="rotationPeriodEarthDays"></span> days</li>
+                        <li>Orbital period: <span id="orbitalPeriod"></span> days</li>
+                        <li>Mean Orbit Velocity: <span id="meanOrbitVelocity"></span> km/h</li>
+                        <li>Surface temperature: <span id="surfaceTemperature"></span> °C</li>
+                        <li>Atmoshperic constituents: <span id="atmoshpericConstituents"></span></li>
+                        <li>Moons: <span id="moons"></span></li>
+                        <li>Rings: <span id="rings"></span></li>
+                        <li>Adjective: <span id="adjective"></span></li>
+                    </ul>
+                </div>
+            </div>
+    
+        </div>
+    
+    <!-- Loading -->
+        <script src='js/libs/three_r120.min.js'></script>
+        <script src='js/libs/OrbitControls.js'></script>
+        <script src='js/libs/OBJLoader.js'></script>
+        <script src='js/libs/MTLLoader.js'></script>
+        <script src='js/libs/dat.gui.min.js'></script>
+    
+        <script src="js/cameraControls/MyCameraControls.js"></script>
+        <script src="js/PickHelper.js"></script>
+        <script src="js/gui/ColorGUIHelper.js"></script>
+    
+        <script src="js/sceneSubjects/AmbientLight.js"></script>
+        <script src="js/sceneSubjects/SunLight.js"></script>
+    
+        <script src="js/sceneSubjects/SolarSystem.js"></script>
+        <script src="js/sceneSubjects/astronomicalBodies/Stars.js"></script>
+    
+        <script src="js/SceneManager.js"></script>
+        <script src="js/main.js"></script>
+  </body>
+</html>
