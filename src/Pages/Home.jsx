@@ -146,7 +146,7 @@ function Home() {
         </button>
       </div>
       <div className='w-full flex justify-end'>
-        <div ref={quoteRef2} className="about-text w-[20%] text-white hidden  sm:block opacity-0 z-10 text-lg p-3 mx-4">
+        <div ref={quoteRef2} className="about-text w-[20%] text-white hidden sm:block opacity-0 z-10 text-lg p-3 mx-4">
           <div className='p-3 z-30 backdrop-filter backdrop-blur-sm bg-opacity-10 -translate-y-32 rounded-2xl bg-blue-300 font-semibold'>
             Double Click on each planet to know more about it. The information contained here is volume, orbital distance, Rotational period, etc...
           </div>
