@@ -95,7 +95,7 @@ var AstronomicalBodiesNames = {
         "rings": "No",
         "adjective": "Solar",
     },
-    60: {
+    100: {
         "name": "Mercury",
         "volumeXEarths": "0.056",
         "orbitDistance": "57,909,227",
@@ -110,7 +110,7 @@ var AstronomicalBodiesNames = {
         "rings": "No",
         "adjective": "Mercurian, Mercurial",
     },
-    80: {
+    180: {
         "name": "Venus",
         "volumeXEarths": "0.866",
         "orbitDistance": "108,209,475",
@@ -125,7 +125,7 @@ var AstronomicalBodiesNames = {
         "rings": "No",
         "adjective": "Venusian",
     },
-    110: {
+    280: {
         "name": "Earth",
         "volumeXEarths": "1",
         "orbitDistance": "149,598,262",
@@ -140,7 +140,7 @@ var AstronomicalBodiesNames = {
         "rings": "No",
         "adjective": "Terrestrial, Terran",
     },
-    18: {
+    25: {
         "name": "Moon",
         "volumeXEarths": "0.02",
         "orbitDistance": "384,400",
@@ -155,7 +155,7 @@ var AstronomicalBodiesNames = {
         "rings": "No",
         "adjective": "Lunar",
     },
-    150: {        
+    360: {        
         "name": "Mars",
         "volumeXEarths": "0.151",
         "orbitDistance": "227,943,824",
@@ -170,7 +170,7 @@ var AstronomicalBodiesNames = {
         "rings": "No",
         "adjective": "Martian",
     },
-    220: {
+    450: {
         "name": "Jupiter",
         "volumeXEarths": "1,321",
         "orbitDistance": "778,340,821",
@@ -185,7 +185,7 @@ var AstronomicalBodiesNames = {
         "rings": "Yes",
         "adjective": "Jovian",
     },
-    320: {
+    580: {
         "name": "Saturn",
         "volumeXEarths": "764",
         "orbitDistance": "1,426,666,422",
@@ -200,7 +200,7 @@ var AstronomicalBodiesNames = {
         "rings": "Yes",
         "adjective": "Saturnian",
     },
-    420: {
+    700: {
         "name": "Uranus",
         "volumeXEarths": "63",
         "orbitDistance": "2,870,658,186",
@@ -215,7 +215,7 @@ var AstronomicalBodiesNames = {
         "rings": "Yes",
         "adjective": "Saturnian",
     },
-    500: {
+    900: {
         "name": "Neptune",
         "volumeXEarths": "58",
         "orbitDistance": "4,498,396,441",

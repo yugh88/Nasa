@@ -5,7 +5,7 @@ function SolarSystem(scene, time) {
 
     const solarSystem = new THREE.Group();
     scene.add(solarSystem);
-    var sunMesh = createSun("sun", 55, scene, solarSystem, astrionomicalBodies, loader);
+    var sunMesh = createSun("sun", 60, scene, solarSystem, astrionomicalBodies, loader);
 
 
     var mercuryOrbit = createOrbit(solarSystem);
