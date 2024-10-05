@@ -60,31 +60,6 @@ function Navbar() {
     });
   }, []);
 
-  const scrollToFirstPage = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  };
-  const scrollToSecondPage = () => {
-    window.scrollTo({
-      top: 740,
-      behavior: 'smooth'
-    });
-  };
-  const scrollToThirdPage = () => {
-    window.scrollTo({
-      top: 1500,
-      behavior: 'smooth'
-    });
-  };
-  const scrollToFourthPage = () => {
-    window.scrollTo({
-      top: 3000,
-      behavior: 'smooth'
-    });
-  };
-
   return (
     <>
       <div className=''>
@@ -158,14 +133,14 @@ function Navbar() {
         <div ref={navRef2} className='hidden sm:block sm:h-16 py-3 w-full transition-all ease-out duration-500 border-white'>
           <div className='nav flex w-full items-center text-xl'>
             <div ref={imgRef2} className='flex gap-1 justify-start mx-16'>
-              <img className='h-10' src="https://avatars.githubusercontent.com/u/97208570?v=4" alt="" />
+              <img className='h-10 rounded-full' src="https://raw.githubusercontent.com/THUNDERBLD/Material/refs/heads/main/WhatsApp%20Image%202024-09-12%20at%2011.51.23.jpeg" alt="" />
               <div className='py-1 rounded-md px-2 underline mx-2 w-80 text-white '>
                 TEAM | <span className='text-blue-400'> CURSOR </span>
               </div>
             </div>
             <div ref={ulRef2} className='font-CoolFont1 w-full flex justify-center gap-1 md:gap-10 font-semibold'>
-              <div className=''>
-                <a onClick={scrollToFirstPage} className="relative px-3 py-2 overflow-hidden font-medium text-gray-300 rounded-xl shadow-inner group">
+              <div className='cursor-pointer'>
+                <a className="relative px-3 py-2 overflow-hidden font-medium text-gray-300 rounded-xl shadow-inner group">
                   <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>
                   <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-600 group-hover:w-full ease"></span>
                   <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
@@ -175,19 +150,19 @@ function Navbar() {
                 </a>
               </div>
 
-              <div className=''>
-                <a onClick={scrollToSecondPage} className="relative px-4 py-2 overflow-hidden font-medium text-gray-300 rounded-lg shadow-inner group">
+              <div className='cursor-pointer'>
+                <a className="relative px-4 py-2 overflow-hidden font-medium text-gray-300 rounded-lg shadow-inner group">
                   <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>
                   <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-600 group-hover:w-full ease"></span>
                   <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
                   <span className="absolute bottom-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
                   <span className="absolute inset-0 w-full h-full duration-300 delay-300 bg-gray-900 opacity-0 group-hover:opacity-100"></span>
-                  <span className="relative transition-colors duration-300 delay-200 group-hover:text-white ease">Skills</span>
+                  <span className="relative transition-colors duration-300 delay-200 group-hover:text-white ease">Planets</span>
                 </a>
               </div>
 
               <div>
-                <a onClick={scrollToThirdPage} className="relative px-3 py-2 overflow-hidden font-medium text-gray-300 rounded-lg shadow-inner group">
+                <a className="relative cursor-pointer px-3 py-2 overflow-hidden font-medium text-gray-300 rounded-lg shadow-inner group">
                   <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>
                   <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-600 group-hover:w-full ease"></span>
                   <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
@@ -198,13 +173,13 @@ function Navbar() {
               </div>
 
               <div>
-                <a onClick={scrollToFourthPage} className="relative px-3 py-2 overflow-hidden font-medium text-gray-300 rounded-lg shadow-inner group">
+                <a className="relative cursor-pointer px-3 py-2 overflow-hidden font-medium text-gray-300 rounded-lg shadow-inner group">
                   <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>
                   <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-600 group-hover:w-full ease"></span>
                   <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
                   <span className="absolute bottom-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
                   <span className="absolute inset-0 w-full h-full duration-300 delay-300 bg-gray-900 opacity-0 group-hover:opacity-100"></span>
-                  <span className="relative transition-colors duration-300 delay-200 group-hover:text-white ease">Contact</span>
+                  <span className="relative transition-colors duration-300 delay-200 group-hover:text-white ease">Team</span>
                 </a>
               </div>
             </div>

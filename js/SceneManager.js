@@ -60,10 +60,10 @@ function SceneManager(canvas) {
         const aspectRatio = width / height;
         const fieldOfView = 60;
         const nearPlane = 1;
-        const farPlane = 10000;
+        const farPlane = 100000;
         const camera = new THREE.PerspectiveCamera(fieldOfView, aspectRatio, nearPlane, farPlane);
 
-        camera.position.set(0, 300, 750);
+        camera.position.set(100, 250, 1050);
         camera.lookAt(new THREE.Vector3(0, 0, 0));
 
         return camera;
