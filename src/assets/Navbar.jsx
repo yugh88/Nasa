@@ -222,7 +222,7 @@ function Navbar() {
             </div>
             <div>
               <div className="github mx-4 hover:scale-110">
-                <a target="_blank" href="https://github.com/THUNDERBLD">
+                <a target="_blank" href="https://github.com/THUNDERBLD/Nasa">
                   <button>
                     <svg
                       className="text-white"
