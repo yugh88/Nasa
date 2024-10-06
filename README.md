@@ -10,8 +10,7 @@ Comets (NECs), Near-Earth Asteroids (NEAs), and Potentially Hazardous Asteroids 
 educational experiences through a realistic view of celestial mechanics as well as supporting mission planning in space
 exploration.
 --------------
-![Orrery Screenshot 1](![image](https://github.com/user-attachments/assets/9be2752f-56e3-451e-b162-887dbbf8c4da)
-)
+
 
 ## Installation
 ------------
