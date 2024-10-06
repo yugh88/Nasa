@@ -1,7 +1,14 @@
-# *Orrery Web App*
+# *Orrery Web App* 🌌
 =====================================
 
-## Project Summary
+## Table of Contents📑
+- [Project Summary](#ProjectSummary)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Features](#Features)
+
+
+## Project Summary 📜
 ---------------
 
 The Dynamic orrery web application is an interactive too for exploring our solar
@@ -12,7 +19,7 @@ exploration.
 
 
 
-## Installation
+## Installation 🛠️
 ------------
 
 To install the project, follow these steps:
@@ -30,7 +37,7 @@ To install the project, follow these steps:
 3. Install dependencies using npm install
 4. Start the server using npm start
 
-## Usage
+## Usage ⚙️
 -----
 
 To use the project, follow these steps:
@@ -40,7 +47,7 @@ To use the project, follow these steps:
 1. Start the server using npm run dev
 2. Open a web browser and navigate to http://localhost:5173
 
-## Features
+## Features 🌠
 --------
 
 1. Immersive 3D Interaction: Interact with a very real 3D model of the solar system that enables users to manipulate time and
