@@ -9,7 +9,7 @@ system. The tool plots, at various scales, positions and motions of celestial bo
 Comets (NECs), Near-Earth Asteroids (NEAs), and Potentially Hazardous Asteroids (PHAs). The objective is to enhance
 educational experiences through a realistic view of celestial mechanics as well as supporting mission planning in space
 exploration.
---------------
+
 
 
 ## Installation
