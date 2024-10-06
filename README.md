@@ -2,10 +2,10 @@
 =====================================
 
 ## Table of Contents📑
-- [Project Summary](#ProjectSummary)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Features](#Features)
+- Project Summary
+- Installation
+- Usage
+- Features
 
 
 ## Project Summary 📜
