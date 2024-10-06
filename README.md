@@ -74,7 +74,7 @@ forefront of astronomy education.
 
 ### Technology Stack
 
-* Front-end: React, wgl , three.js , gsap , tailwind.css
+* Front-end: React, wgl , three.js , GSAP , tailwind.css
 * Back-end: Node.js, Express, MongoDB
 * Database: MongoDB
 
